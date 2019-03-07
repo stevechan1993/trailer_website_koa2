@@ -1,0 +1,27 @@
+{
+  "name": "trailer-website-koa2",
+  "version": "1.0.0",
+  "description": "This is a trailer website using Koa2",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevechan1993/trailer-website-koa2.git"
+  },
+  "keywords": [
+    "movie",
+    "trailer"
+  ],
+  "author": "Steve Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevechan1993/trailer-website-koa2/issues"
+  },
+  "homepage": "https://github.com/stevechan1993/trailer-website-koa2#readme",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
