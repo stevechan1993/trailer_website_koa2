@@ -7,6 +7,7 @@ app.use(views(resolve(__dirname, './views'), {
 	extension: 'pug'
 }));
 
+// index
 app.use(async (ctx, next) => {
 	await ctx.render('index', {
 		you: 'Luke',
