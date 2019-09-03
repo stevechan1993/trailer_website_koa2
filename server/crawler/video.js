@@ -11,7 +11,7 @@ const sleep = time => new Promise(resolve => {
     console.log('Start visit the target page')
 
     const browser = await puppeteer.launch({
-        args: ['--no-sandbox'],
+        args: ['--no-sandbox'], 
         dumpio: false
     })
 
